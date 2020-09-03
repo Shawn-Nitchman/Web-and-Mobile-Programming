@@ -1,0 +1,68 @@
+.container-1{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    flex-basis: 30%;
+    height: 400px;
+
+}
+
+.container-1 div{
+    border:1px solid;
+    padding:10px;
+    margin:20px;
+}
+
+.box-1{
+    flex:1;
+    color:red;
+    background-color: red;
+}
+
+.box-2{
+    flex:1;
+    color:orange;
+    background-color: orange;
+}
+
+.box-3{
+    flex:1;
+    color:yellow;
+    background-color: yellow;
+}
+
+.box-4{
+    flex:1;
+    color:green;
+    background-color:green;
+}
+
+.box-5{
+    flex:1;
+    color:blue;
+    background-color:blue;
+}
+
+.box-6{
+    flex:1;
+    color:indigo;
+    background-color: indigo;
+}
+
+.box-7{
+    flex:1;
+    color:violet;
+    background-color: violet;
+}
+
+.box-8{
+    flex:1;
+    color: grey;
+    background-color: grey;
+}
+
+.box-9{
+    flex:1;
+    color: black;
+    background-color: black;
+}
