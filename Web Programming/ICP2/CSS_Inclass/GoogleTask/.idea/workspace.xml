@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4039c57-3c89-484b-a8d8-f2466e22f4a8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Halo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Halo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +29,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/Shawn-Nitchman/Web-and-Mobile-Programming" />
+      </set>
+    </option>
   </component>
   <component name="ProjectId" id="1h0YZYg5fiTJSgEOX5RxT65jAvb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -39,7 +46,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../9 colors" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -51,6 +58,8 @@
       <option name="presentableId" value="Default" />
       <updated>1599149533011</updated>
       <workItem from="1599149534076" duration="119000" />
+      <workItem from="1599150100109" duration="3000" />
+      <workItem from="1599150124684" duration="86000" />
     </task>
     <servers />
   </component>
@@ -67,5 +76,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1599150201353">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599150201353" />
   </component>
 </project>

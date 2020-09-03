@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/../../.." vcs="Git" />
     <mapping directory="$PROJECT_DIR$/UMKC/Fall 2020/449 Software engineering/449-Nine-Men-Morris-Project" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/UMKC/Fall 2020/490 Web and Mobile Programming/Web-and-Mobile-Programming" vcs="Git" />
   </component>
