@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!-- this container is the html for the the player to choice rock paper or scissors with the output-->
+<div class="container">
+    <!-- since I want the output on the same row they are all included in this class-->
+    <div class="row">
+        <!-- this first class is using bootstrap to display what the user can click -->
+        <div class="col-sm player">
+            <!-- it is a unordered list using bootstrap that displays a clickable picture-->
+            <ul class="list-group">
+                <br>
+
+                <!-- this is first item in the list and shows a picture of a clickable pciture of a rock,
+                once the user clicks on it it will go to the player select  function and pass on the play choice,
+                rock is 1, paper is  2, scissor is 3 -->
+
+                <li class="list-group-item">
+                    <button id="Rock" onclick=playerSelect(1)>
+                        <img src="images/Rock.jpg" />
+                    </button>
+
+                </li>
+
+                <li class="list-group-item">
+                    <button id="Paper" onclick="playerSelect(2)">
+                        <img src="images/Paper.jpg" />
+                    </button>
+                </li>
+
+                <li class="list-group-item">
+                    <button id="Scissor" onclick="playerSelect(3)">
+                        <img src="images/Scissor.jpg" />
+                    </button>
+                </li>
+            </ul>
+        <!-- this is just for spacing -->
+        </div>
+        <div class="col-sm">
+        </div>
+        <!-- this is where the output goes. i am keeping it simple so at first it displays nothing then once the -->
+        <!-- user clicks on a button it will display text-->
+        <div class="col-sm-5 output">
+            <h2 id="plaC"></h2>
+            <h2 id="comC"></h2>
+            <h1 id="outcome"></h1>
+        </div>
+
+    </div>
+</div>
+
+<br> <br> <br>
+<p>pictures from https://www.amazon.com/Onipse-Dev-Rock-Paper-Scissors/dp/B07B3KJ966</p>
+</body>
+</html>

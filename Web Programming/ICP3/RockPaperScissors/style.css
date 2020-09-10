@@ -1,0 +1,21 @@
+.player {
+    width: 200px;
+    height: 750px;
+    background: coral;
+    margin-top: 40px;
+    padding: 0;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.52), 0 2px 5px rgba(0, 0, 0, 0.54);
+    *zoom: 1;
+}
+
+.output {
+    width: 200px;
+    height: 750px;
+    background: coral;
+    margin-top: 40px;
+    padding: 0;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.52), 0 2px 5px rgba(0, 0, 0, 0.54);
+    *zoom: 1;
+}
