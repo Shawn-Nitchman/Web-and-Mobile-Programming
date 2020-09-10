@@ -19,13 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5306d21d-7d36-4b9b-889f-967ab6ebbb4b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Web_Lesson3/InClassProgramming/RWD Task/.idea/RWD Task.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Web_Lesson3/InClassProgramming/RWD Task/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Web_Lesson3/InClassProgramming/RWD Task/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Web_Lesson3/InClassProgramming/RWD Task/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Web_Lesson3/InClassProgramming/RWD Task/input/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Web_Lesson3/InClassProgramming/RWD Task/input/input.html" afterDir="false" />
+    <list default="true" id="a42715e4-d35a-4291-8734-520040f3a103" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/RWD Task.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleImages/shawn.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../RockPaperScissors/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../RockPaperScissors/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/input/input.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,16 +36,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
-        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
   </component>
-  <component name="ProjectId" id="1hIVXLcoIiZ9Hu6b7IfZwuepv6V" />
+  <component name="ProjectId" id="1hKcrfkOfrOXINSlpUUl4ZbuViB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -54,10 +53,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Web_Lesson3/InClassProgramming/RWD Task" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -70,13 +68,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5306d21d-7d36-4b9b-889f-967ab6ebbb4b" name="Default Changelist" comment="" />
-      <created>1599698632030</created>
+      <changelist id="a42715e4-d35a-4291-8734-520040f3a103" name="Default Changelist" comment="" />
+      <created>1599763424285</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1599698632030</updated>
-      <workItem from="1599698633062" duration="11171000" />
-      <workItem from="1599763366016" duration="231000" />
+      <updated>1599763424285</updated>
+      <workItem from="1599763425636" duration="6080000" />
     </task>
     <servers />
   </component>
@@ -93,15 +90,8 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1599763422684">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599763422684" />
   </component>
 </project>

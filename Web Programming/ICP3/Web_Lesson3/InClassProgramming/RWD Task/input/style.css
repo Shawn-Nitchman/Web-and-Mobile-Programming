@@ -1,0 +1,21 @@
+#Header {
+    color: #747704;
+    font-family: "Lato";
+    text-align: right;
+}
+
+#Featured{
+    color: #BCBBBB;
+    font-family: "Lato";
+}
+
+#Works{
+    color: #747704;
+    font-family: "Lato";
+}
+
+hr{
+    border-top: 3px solid rgba(0, 0, 0, 0.2);
+}
+
+
