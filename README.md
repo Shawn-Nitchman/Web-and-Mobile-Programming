@@ -9,15 +9,15 @@ This class is part of applied programming language at UMKC. This class is struct
 
 ## Web ICPS and Wikis
 
-### Week 1
+#### Week 1
 1. [ICP1](https://github.com/Shawn-Nitchman/Web-and-Mobile-Programming/tree/master/Web%20Programming/ICP1) 
 2. [Wiki](https://github.com/Shawn-Nitchman/Web-and-Mobile-Programming/wiki/ICP1)
 
-### Week 2
+#### Week 2
 1. [ICP2](https://github.com/Shawn-Nitchman/Web-and-Mobile-Programming/tree/master/Web%20Programming/ICP2)
 2. [Wiki](https://github.com/Shawn-Nitchman/Web-and-Mobile-Programming/wiki/ICP2)
 
-### Week 3
+#### Week 3
 1. [ICP3](https://github.com/Shawn-Nitchman/Web-and-Mobile-Programming/tree/master/Web%20Programming/ICP3)
 2. [Wiki](https://github.com/Shawn-Nitchman/Web-and-Mobile-Programming/wiki/ICP-3)
 
