@@ -19,9 +19,28 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5306d21d-7d36-4b9b-889f-967ab6ebbb4b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Web_Lesson3/InClassProgramming/RWD Task/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Web_Lesson3/InClassProgramming/RWD Task/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="95979690-a9a7-4e5f-9dc9-23702f24c52e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/ICP4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hover over/css/hover_css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hover over/html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hover over/js/hover_script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Hover code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Hover website.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web_Lesson4/Use_Case/Hangman_with_API/.idea/Hangman_with_API.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web_Lesson4/Use_Case/Hangman_with_API/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web_Lesson4/Use_Case/Hangman_with_API/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web_Lesson4/Use_Case/Hangman_with_API/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web_Lesson4/Use_Case/Hangman_with_API/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web_Lesson4/Use_Case/Hangman_with_JS/.idea/Hangman_with_JS.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web_Lesson4/Use_Case/Hangman_with_JS/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web_Lesson4/Use_Case/Hangman_with_JS/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web_Lesson4/Use_Case/Hangman_with_JS/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web_Lesson4/Use_Case/Hangman_with_JS/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICP3/RockPaperScissors/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ICP3/RockPaperScissors/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICP3/Web_Lesson3/InClassProgramming/RWD Task/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ICP3/Web_Lesson3/InClassProgramming/RWD Task/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,9 +57,9 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1hIVXLcoIiZ9Hu6b7IfZwuepv6V" />
+  <component name="ProjectId" id="1hZUTvLevWiJT6P4uG6zPtCQm9D" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -50,10 +69,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Web_Lesson4/Use_Case/Hangman_with_JS" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -63,17 +83,21 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\shawn\Desktop\UMKC\Fall 2020\490 Web and Mobile Programming\Web-and-Mobile-Programming\Web Programming\ICP4\Hover over\html" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5306d21d-7d36-4b9b-889f-967ab6ebbb4b" name="Default Changelist" comment="" />
-      <created>1599698632030</created>
+      <changelist id="95979690-a9a7-4e5f-9dc9-23702f24c52e" name="Default Changelist" comment="" />
+      <created>1600218119844</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1599698632030</updated>
-      <workItem from="1599698633062" duration="11171000" />
-      <workItem from="1599763366016" duration="231000" />
-      <workItem from="1599786061315" duration="1738000" />
+      <updated>1600218119844</updated>
+      <workItem from="1600218121067" duration="3493000" />
+      <workItem from="1600221631111" duration="5326000" />
     </task>
     <servers />
   </component>
@@ -96,9 +120,9 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1599763422684">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1600221669658">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599763422684" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600221669658" />
   </component>
 </project>
