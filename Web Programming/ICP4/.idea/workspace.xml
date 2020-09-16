@@ -20,27 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95979690-a9a7-4e5f-9dc9-23702f24c52e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/ICP4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hover over/css/hover_css.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hover over/html/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hover over/js/hover_script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Hover code.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Hover website.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web_Lesson4/Use_Case/Hangman_with_API/.idea/Hangman_with_API.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web_Lesson4/Use_Case/Hangman_with_API/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web_Lesson4/Use_Case/Hangman_with_API/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web_Lesson4/Use_Case/Hangman_with_API/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web_Lesson4/Use_Case/Hangman_with_API/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web_Lesson4/Use_Case/Hangman_with_JS/.idea/Hangman_with_JS.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web_Lesson4/Use_Case/Hangman_with_JS/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web_Lesson4/Use_Case/Hangman_with_JS/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web_Lesson4/Use_Case/Hangman_with_JS/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web_Lesson4/Use_Case/Hangman_with_JS/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ICP3/RockPaperScissors/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ICP3/RockPaperScissors/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ICP3/Web_Lesson3/InClassProgramming/RWD Task/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ICP3/Web_Lesson3/InClassProgramming/RWD Task/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,6 +78,7 @@
       <updated>1600218119844</updated>
       <workItem from="1600218121067" duration="3493000" />
       <workItem from="1600221631111" duration="5326000" />
+      <workItem from="1600228396212" duration="899000" />
     </task>
     <servers />
   </component>
