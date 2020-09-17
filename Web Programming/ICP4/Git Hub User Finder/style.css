@@ -50,6 +50,8 @@ input[type='text'] {
 
 h2 {
   padding: 5px;
+  font-size: 75px;
+  height: 50px;
 }
 
 .profile {
