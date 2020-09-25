@@ -25,5 +25,9 @@ This class is part of applied programming language at UMKC. This class is struct
 1. [ICP4](https://github.com/Shawn-Nitchman/Web-and-Mobile-Programming/tree/master/Web%20Programming/ICP4)
 2. [Wiki](https://github.com/Shawn-Nitchman/Web-and-Mobile-Programming/wiki/ICP-4)
 
+#### Week 5
+1. [ICP5](https://github.com/Shawn-Nitchman/Web-and-Mobile-Programming/tree/master/Web%20Programming/ICP5/ICP/ToDoICP)
+2. [Wiki](https://github.com/Shawn-Nitchman/Web-and-Mobile-Programming/wiki/ICP-5)
+
 ## Mobile ICPS and Wikis
 coming soon
