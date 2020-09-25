@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>login</title>
+  <style>
+    .login, .input {
+      max-width: 800px;
+      color: #555;
+      font-size: 18px;
+      margin: auto;
+      padding: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+<div>
+  <div class="login">Hello {{ firstName }}</div>
+  <br/>
+  <div class="input">
+    <label> Username:
+      <input [(ngModel)]="firstName"/>
+    </label>
+    <br/><br/>
+    <label> Password:
+      <input type="password"/>
+    </label>
+    <br/><br/>
+    <input type="submit" (click)="login(firstName, pwd)" value="Login"/>
+  </div>
+  <div *ngFor="let login of logins">{{ login }}</div>
+</div>
+
+</body>
+</html>
