@@ -1,0 +1,35 @@
+<div>
+  <h4> Property binding example: </h4><br>
+  <div class="panel panel-default">
+    <div class="panel-heading" #heading>
+      {{element.name}} <!-- String interpolation -->
+    </div>
+    <div class="panel-body">
+      {{element.content}}
+    </div>
+  </div>
+
+  <h4> Event binding example: </h4><br>
+  <div class="row">
+    <div class="col-xs-12">
+      <p>Add new Server!</p>
+      <label>Server Name
+      <input
+        type="text"
+        class="form-control"
+        #objectName></label><br>
+      <label>Server Content
+      <input
+        type="text"
+        class="form-control"
+        #objectContent></label>
+      <br>
+      <button
+        class="btn btn-primary"
+        (click)="onAddObject(objectName)">Add Server</button>
+
+    </div>
+  </div>
+
+
+</div>

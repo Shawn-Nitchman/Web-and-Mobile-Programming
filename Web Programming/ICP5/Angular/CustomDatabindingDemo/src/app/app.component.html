@@ -1,0 +1,7 @@
+
+<div class="container">
+  <!-- Property binding: [testObj]..... Event binding: (objectCreated) -->
+  <app-child [testObj]="TestObject"
+              (objectCreated)="onObjectAdded($event)"></app-child>
+</div>
+
