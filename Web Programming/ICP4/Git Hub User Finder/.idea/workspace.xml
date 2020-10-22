@@ -21,7 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5ef05378-83fe-4033-be85-e002d448ff6e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hover over/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hover over/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +60,7 @@
       <workItem from="1600229548058" duration="1038000" />
       <workItem from="1600231717057" duration="610000" />
       <workItem from="1600292678523" duration="20878000" />
+      <workItem from="1600319736082" duration="524000" />
     </task>
     <servers />
   </component>
@@ -79,9 +80,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1600313306462">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1600319742370">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600313306462" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600319742370" />
   </component>
 </project>
