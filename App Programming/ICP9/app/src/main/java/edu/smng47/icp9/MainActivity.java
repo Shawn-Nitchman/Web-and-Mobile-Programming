@@ -29,11 +29,8 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void redirctToSummaryPage(View view){
-        Intent redirect = new Intent(MainActivity.this, SummaryActivity.class);
-
         EditText editText = (EditText) findViewById(R.id.nameInput);
         String username = editText.getText().toString();
-        redirect.putExtra("Name", username);
 
         CheckBox getPepperoni = (CheckBox) findViewById(R.id.pepCheckBox);
         boolean hasPepperoni = getPepperoni.isChecked();
@@ -48,19 +45,74 @@ public class MainActivity extends AppCompatActivity {
         boolean hasMushroom = getMushroom.isChecked();
 
         float totalPrice = calculatePrice(hasPepperoni,hasSausage,hasOnion,hasMushroom);
+
+        String selectedToppings = createOrderSummary(hasPepperoni, hasSausage, hasOnion, hasPepperoni);
+
+        Intent redirect = new Intent(MainActivity.this, SummaryActivity.class);
+        redirect.putExtra("Name", username);
+
         String x = Float.toString(totalPrice);
         String y = Integer.toString(quantity);
+
         redirect.putExtra("Price", x);
         redirect.putExtra("Quantity", y);
-
+        redirect.putExtra("Topping", selectedToppings);
         startActivity(redirect);
     }
 
+
+    public String createOrderSummary(boolean hasPep, boolean hasSau, boolean hasOni, boolean hasMus){
+        String orderSummarymessage = "";
+
+        if(hasPep){
+            orderSummarymessage += getString(R.string.pepperoni) + " ";
+        }
+        if(hasSau){
+            orderSummarymessage += getString(R.string.sausage) + " ";
+        }
+        if(hasOni){
+            orderSummarymessage += getString(R.string.onion) + " ";
+        }
+        if(hasMus){
+            orderSummarymessage += getString(R.string.mushroom) + " ";
+        }
+
+        return orderSummarymessage;
+    }
+
     public void redirectToOrder(View view){
-        Intent sendIntent = new Intent();
-        sendIntent.setAction(Intent.ACTION_SEND);
-        sendIntent.putExtra(Intent.EXTRA_TEXT, quantity);
-        sendIntent.setType("text.plain");
+        EditText editText = (EditText) findViewById(R.id.nameInput);
+        String name = editText.getText().toString();
+
+        CheckBox getPepperoni = (CheckBox) findViewById(R.id.pepCheckBox);
+        boolean hasPepperoni = getPepperoni.isChecked();
+
+        CheckBox getSausage = (CheckBox) findViewById(R.id.sauCheckBox);
+        boolean hasSausage = getSausage.isChecked();
+
+        CheckBox getOnion = (CheckBox) findViewById(R.id.oniCheckBox);
+        boolean hasOnion = getOnion.isChecked();
+
+        CheckBox getMushroom = (CheckBox) findViewById(R.id.musCheckBox);
+        boolean hasMushroom = getMushroom.isChecked();
+
+        float totalPrice = calculatePrice(hasPepperoni,hasSausage,hasOnion,hasMushroom);
+
+        String selectedToppings = createOrderSummary(hasPepperoni, hasSausage, hasOnion, hasPepperoni);
+
+        String message = "Dear " + name + ", \n" +
+                "Number of pizzas " + quantity + "\n" +
+                "Toppings " + selectedToppings + "\n" +
+                "Price " + totalPrice;
+
+        String[] address = {"smng47@umsyst.edu"};
+        
+        Intent sendIntent = new Intent(Intent.ACTION_SEND);
+        sendIntent.setType("*/*");
+        sendIntent.putExtra(Intent.EXTRA_EMAIL, address);
+        sendIntent.putExtra(Intent.EXTRA_SUBJECT, name + "'s order");
+        sendIntent.putExtra(Intent.EXTRA_TEXT, message);
+
 
         if(sendIntent.resolveActivity(getPackageManager()) != null){
             startActivity(sendIntent);
