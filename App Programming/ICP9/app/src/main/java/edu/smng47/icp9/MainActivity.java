@@ -27,11 +27,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-
+    // this function switches activities to the summary page. It gathers all the info and passes it along
     public void redirctToSummaryPage(View view){
         EditText editText = (EditText) findViewById(R.id.nameInput);
         String username = editText.getText().toString();
 
+        // these few lines check if the checkbox has ben checked
         CheckBox getPepperoni = (CheckBox) findViewById(R.id.pepCheckBox);
         boolean hasPepperoni = getPepperoni.isChecked();
 
@@ -44,10 +45,13 @@ public class MainActivity extends AppCompatActivity {
         CheckBox getMushroom = (CheckBox) findViewById(R.id.musCheckBox);
         boolean hasMushroom = getMushroom.isChecked();
 
+        // this caluclate the price
         float totalPrice = calculatePrice(hasPepperoni,hasSausage,hasOnion,hasMushroom);
 
+        // this creates a message based on the checked boxes
         String selectedToppings = createOrderSummary(hasPepperoni, hasSausage, hasOnion, hasPepperoni);
 
+        // this switches the intent and passes along the infomation for it
         Intent redirect = new Intent(MainActivity.this, SummaryActivity.class);
         redirect.putExtra("Name", username);
 
@@ -61,6 +65,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    // checks to see if the box is checked then added it to a string
     public String createOrderSummary(boolean hasPep, boolean hasSau, boolean hasOni, boolean hasMus){
         String orderSummarymessage = "";
 
@@ -80,7 +85,9 @@ public class MainActivity extends AppCompatActivity {
         return orderSummarymessage;
     }
 
+    // this is when they submit the order and switches the intent to an email
     public void redirectToOrder(View view){
+        // getting all the info so it can added it to the email
         EditText editText = (EditText) findViewById(R.id.nameInput);
         String name = editText.getText().toString();
 
@@ -106,7 +113,8 @@ public class MainActivity extends AppCompatActivity {
                 "Price " + totalPrice;
 
         String[] address = {"smng47@umsyst.edu"};
-        
+
+        // switches to the email
         Intent sendIntent = new Intent(Intent.ACTION_SEND);
         sendIntent.setType("*/*");
         sendIntent.putExtra(Intent.EXTRA_EMAIL, address);
@@ -119,6 +127,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    // calcues the price based if the check boxes are checked
     private float calculatePrice(boolean pepperoni, boolean sausage, boolean onion, boolean mushroom){
         int basePrice = PIZZA;
         if(pepperoni){
@@ -137,13 +146,14 @@ public class MainActivity extends AppCompatActivity {
         return quantity * basePrice;
     }
 
-
+    // changes the number of qunatity in the page
     public void display(int quantity){
         TextView textView = (TextView) findViewById(R.id.pizzaQuanty);
         textView.setText(String.valueOf(quantity));
 
     }
 
+    // incereases the count
     public void increment(View view){
         if(quantity < 100){
             quantity = quantity + 1;
@@ -157,6 +167,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    // decreased the count
     public void decrement(View view){
         if(quantity > 1){
             quantity = quantity - 1;

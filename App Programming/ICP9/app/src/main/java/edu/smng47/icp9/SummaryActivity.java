@@ -17,11 +17,13 @@ public class SummaryActivity extends AppCompatActivity {
         changeTextFields();
     }
 
+    // switches to main acitity when the user hits a button
     public void redirectToMainPage(View view){
         Intent redirect = new Intent(SummaryActivity.this, MainActivity.class);
         startActivity(redirect);
     }
 
+    // this changes the dummy values on the pages to the info from the past page
     public void changeTextFields(){
         TextView nameText = findViewById(R.id.order_name);
         String name = getIntent().getExtras().getString("Name");
